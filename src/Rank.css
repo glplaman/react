@@ -1,0 +1,49 @@
+.container {
+  width: 90%;
+  max-width: 350px;
+  margin: 0 auto;
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      margin-bottom: 40px;
+    }
+
+    label {
+      margin-top: 20px;
+    }
+
+    input,
+    textarea {
+      border: 1px solid #808080;
+      padding: 10px 10px;
+    }
+
+    button {
+      margin-top: 20px;
+      background: #089;
+      color: #fff;
+      padding: 4px 10px;
+    }
+  }
+
+  ul {
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      line-height: 2;
+
+      div {
+        cursor: pointer;
+        text-transform: capitalize;
+
+        &:hover {
+          color: #089;
+        }
+      }
+    }
+  }
+}

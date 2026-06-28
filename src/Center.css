@@ -1,0 +1,19 @@
+form {
+  width: 90%;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+input {
+  border-bottom: 1px solid #808080;
+  flex: 1;
+  padding: 0 10px;
+}
