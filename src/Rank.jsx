@@ -3,7 +3,7 @@ import { createClient } from "@supabase/supabase-js";
 import "./Rank.css";
 const supabase = createClient(import.meta.env.VITE_SUPABASE_URL, import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY);
 
-export default function () {
+export default function Rank() {
   const [ranks, setRanks] = useState([]);
   const [course, setCourse] = useState("软件项目管理");
   const [sortConfig, setSortConfig] = useState({ key: null, direction: "asc" });
