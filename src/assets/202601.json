@@ -1,0 +1,205 @@
+  [
+    {
+      "usn": "5225",
+      "uname": "林永先",
+      "ucredit": 10,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5228",
+      "uname": "莫国锐",
+      "ucredit": 4,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5245",
+      "uname": "路守旗",
+      "ucredit": 12,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5246",
+      "uname": "孙磊",
+      "ucredit": 1,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5250",
+      "uname": "梁涵迪",
+      "ucredit": 9,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5259",
+      "uname": "袁帅",
+      "ucredit": 15,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5262",
+      "uname": "张翰之",
+      "ucredit": 8,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5263",
+      "uname": "张振",
+      "ucredit": 5,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5264",
+      "uname": "李梦京",
+      "ucredit": 13,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5266",
+      "uname": "吴浩然",
+      "ucredit": 18,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5267",
+      "uname": "余秋雨",
+      "ucredit": 9,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5281",
+      "uname": "汤勋瞳",
+      "ucredit": 1,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5285",
+      "uname": "邓峰",
+      "ucredit": 17,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5323",
+      "uname": "梁舒畅",
+      "ucredit": 1,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5330",
+      "uname": "何克俊",
+      "ucredit": 1,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5331",
+      "uname": "雷思远",
+      "ucredit": 3,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5332",
+      "uname": "刘俸鸣",
+      "ucredit": 2,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5335",
+      "uname": "熊良",
+      "ucredit": 6,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5337",
+      "uname": "曾俊豪",
+      "ucredit": 1,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5388",
+      "uname": "陶乐逸",
+      "ucredit": 1,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5389",
+      "uname": "连滨奇",
+      "ucredit": 4,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5394",
+      "uname": "杨智茗",
+      "ucredit": 5,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5396",
+      "uname": "董宁安",
+      "ucredit": 1,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5398",
+      "uname": "项李睿",
+      "ucredit": 1,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5399",
+      "uname": "邢意名",
+      "ucredit": 14,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5247",
+      "uname": "郭菁芳",
+      "ucredit": 12,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5260",
+      "uname": "曹丹丹",
+      "ucredit": 15,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5321",
+      "uname": "刘荣",
+      "ucredit": 19,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    },
+    {
+      "usn": "5359",
+      "uname": "张冉",
+      "ucredit": 11,
+      "ucourse": "软件项目管理",
+      "uclass": "23计算机12班"
+    }
+  ]

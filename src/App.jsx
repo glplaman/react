@@ -1,9 +1,11 @@
-import Message from "./Message";
+import Footer from "./Footer";
+import Rank from "./Rank";
 // import "./App.css";
 function App() {
   return (
     <>
-      <Message></Message>
+      <Rank></Rank>
+      <Footer></Footer>
     </>
   );
 }

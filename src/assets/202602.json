@@ -1,0 +1,457 @@
+[
+  {
+    "usn": "6613",
+    "uname": "涂健诚",
+    "ucredit": 3,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6615",
+    "uname": "黄一丁",
+    "ucredit": 3,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6616",
+    "uname": "谢亿超",
+    "ucredit": 13,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6617",
+    "uname": "刘梓灏",
+    "ucredit": 3,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6620",
+    "uname": "黄志林",
+    "ucredit": 19,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6621",
+    "uname": "陈镇滨",
+    "ucredit": 14,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6622",
+    "uname": "陈文俊",
+    "ucredit": 1,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6623",
+    "uname": "徐炯",
+    "ucredit": 5,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6624",
+    "uname": "王若城",
+    "ucredit": 9,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6625",
+    "uname": "宁文楷",
+    "ucredit": 11,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6626",
+    "uname": "周恩杰",
+    "ucredit": 11,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6627",
+    "uname": "陈烨宏",
+    "ucredit": 9,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6628",
+    "uname": "王信",
+    "ucredit": 10,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6632",
+    "uname": "陈佳豪",
+    "ucredit": 5,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6633",
+    "uname": "李闻轩",
+    "ucredit": 14,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6634",
+    "uname": "陈俊丞",
+    "ucredit": 13,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6636",
+    "uname": "李宇航",
+    "ucredit": 22,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6637",
+    "uname": "彭俊煌",
+    "ucredit": 4,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6639",
+    "uname": "陈树润",
+    "ucredit": 29,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6640",
+    "uname": "林政和",
+    "ucredit": 8,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6641",
+    "uname": "冉靖",
+    "ucredit": 23,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6642",
+    "uname": "杨业航",
+    "ucredit": 16,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6643",
+    "uname": "杜健禹",
+    "ucredit": 7,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6644",
+    "uname": "陈天琪",
+    "ucredit": 6,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6645",
+    "uname": "张佳轩",
+    "ucredit": 25,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6646",
+    "uname": "范智炫",
+    "ucredit": 16,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6647",
+    "uname": "伍智聪",
+    "ucredit": 2,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6648",
+    "uname": "吴锦桦",
+    "ucredit": 19,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6649",
+    "uname": "吴学鑫",
+    "ucredit": 3,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6651",
+    "uname": "张桂欢",
+    "ucredit": 3,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6653",
+    "uname": "王鸿锐",
+    "ucredit": 21,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6659",
+    "uname": "曾维鑫",
+    "ucredit": 27,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6660",
+    "uname": "黄文琪",
+    "ucredit": 5,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6662",
+    "uname": "张林茂",
+    "ucredit": 2,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6666",
+    "uname": "谢新",
+    "ucredit": 3,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6667",
+    "uname": "袁子恒",
+    "ucredit": 3,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6674",
+    "uname": "潘键宇",
+    "ucredit": 1,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6675",
+    "uname": "胡银林",
+    "ucredit": 1,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6676",
+    "uname": "李梓皓",
+    "ucredit": 17,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6682",
+    "uname": "李睿晨",
+    "ucredit": 14,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6683",
+    "uname": "吴杰维",
+    "ucredit": 3,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6684",
+    "uname": "谭永蓬",
+    "ucredit": 22,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6686",
+    "uname": "孔振州",
+    "ucredit": 1,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6687",
+    "uname": "冯世钊",
+    "ucredit": 14,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6688",
+    "uname": "傅梓鑫",
+    "ucredit": 11,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6689",
+    "uname": "蓝天翔",
+    "ucredit": 1,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6690",
+    "uname": "温昌标",
+    "ucredit": 7,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6691",
+    "uname": "卢学恒",
+    "ucredit": 2,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6692",
+    "uname": "吴尘杨",
+    "ucredit": 1,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6693",
+    "uname": "郑志豪",
+    "ucredit": 25,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6694",
+    "uname": "邓轩",
+    "ucredit": 3,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6696",
+    "uname": "陈哲宇",
+    "ucredit": 1,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "4729",
+    "uname": "李建军",
+    "ucredit": 1,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "4779",
+    "uname": "陈瑞",
+    "ucredit": 5,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "3864",
+    "uname": "陈曦",
+    "ucredit": 2,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "7675",
+    "uname": "杨乾睿",
+    "ucredit": 5,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "5818",
+    "uname": "刘幸雨",
+    "ucredit": 15,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "5898",
+    "uname": "陈智图",
+    "ucredit": 21,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "7439",
+    "uname": "黄山",
+    "ucredit": 3,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6665",
+    "uname": "钟蔓君",
+    "ucredit": 12,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "6695",
+    "uname": "莫晓桐",
+    "ucredit": 27,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "4761",
+    "uname": "叶有娜",
+    "ucredit": 5,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "5689",
+    "uname": "潘钰慧",
+    "ucredit": 2,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "4655",
+    "uname": "江楚婷",
+    "ucredit": 8,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  },
+  {
+    "usn": "4654",
+    "uname": "黄思静",
+    "ucredit": 2,
+    "ucourse": "计算机应用基础",
+    "uclass": "25机械1-2"
+  }
+]

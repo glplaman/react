@@ -1,4 +1,5 @@
 :root {
+  --main-color: #4bc2ce;
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
@@ -65,13 +66,10 @@ body {
 }
 
 #root {
-  width: 1126px;
+  width: 1024px;
   max-width: 100%;
   margin: 0 auto;
   min-height: 100svh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 h1,
