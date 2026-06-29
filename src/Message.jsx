@@ -9,30 +9,40 @@ export default function () {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const { error, data } = await supabase.from("messages").insert(msg).single();
+    const { error, data } = await supabase.from("messages").insert([msg]).select();
     if (error) {
       console.error(error.message);
       return;
     }
+    console.log(data);
+    // console.log(msgs);
     setMsg({ title: "", desc: "" });
-    getAll();
+    setMsgs((prev) => [data, ...prev]);
+    // console.log(msgs);
   };
-  const getAll = async () => {
-    const { error, data } = await supabase.from("messages").select().order('created_at', { ascending: false });
+
+  const deleteMsg = async (id) => {
+    const { error, data } = await supabase.from("messages").delete().eq("id", id).select();
     if (error) {
       console.error(error.message);
       return;
     }
+    console.log(data);
+
+    setMsgs((prev) => prev.filter((item) => item.id !== data[0].id));
+  };
+
+  const getAll = async () => {
+    const { error, data } = await supabase.from("messages").select().order("created_at", { ascending: false });
+    if (error) {
+      console.error(error.message);
+      return;
+    }
+    console.log(data);
+
     setMsgs(data);
   };
-  const deleteMsg = async (id) => {
-    const { error, data } = await supabase.from("messages").delete().eq("id", id);
-    if (error) {
-      console.error(error.message);
-      return;
-    }
-    getAll();
-  };
+
   useEffect(() => {
     getAll();
   }, []);
@@ -47,9 +57,9 @@ export default function () {
         <button type="submit">submit</button>
       </form>
       <ul>
-        {msgs.map((item,ind) => (
+        {msgs.map((item, ind) => (
           <li key={item.id}>
-            {ind+1}:{item.title}-{item.desc} <div  onClick={() => deleteMsg(item.id)}>delete</div>
+            {ind + 1}:{item.title}-{item.desc} <div onClick={() => deleteMsg(item.id)}>delete</div>
           </li>
         ))}
       </ul>
