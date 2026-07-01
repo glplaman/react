@@ -1,10 +1,12 @@
 import { useEffect, useState, useMemo } from "react";
 import { createClient } from "@supabase/supabase-js";
 import "./Rank.css";
+import logo from "./assets/starCup.svg";
 const supabase = createClient(import.meta.env.VITE_SUPABASE_URL, import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY);
 
 export default function Rank() {
   const [ranks, setRanks] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
   const [course, setCourse] = useState("软件项目管理");
   const [sortConfig, setSortConfig] = useState({ key: null, direction: "asc" });
 
@@ -13,12 +15,14 @@ export default function Rank() {
   }, [course]);
 
   const getRanks = async () => {
+    setIsLoading(true);
     const { error, data } = await supabase.from("ranks").select().eq("ucourse", course);
     if (error) {
-      console.log(error);
+      console.error(error);
       return;
     }
     setRanks(data);
+    setIsLoading(false);
   };
 
   const requestSort = (key) => {
@@ -53,7 +57,7 @@ export default function Rank() {
   return (
     <div className="container">
       <nav>
-        <h2>积分榜 Rank</h2>
+        <img src={logo} alt="" />
         <ul>
           <li onClick={() => setCourse("软件项目管理")} className={course == "软件项目管理" ? "active" : ""}>
             软件项目管理
@@ -63,11 +67,13 @@ export default function Rank() {
           </li>
         </ul>
       </nav>
-      {!ranks || ranks.length == 0 ? (
-        <p>数据为空</p>
+      {isLoading ? (
+        <div className="mask">Loading</div>
+      ) : !ranks || ranks.length == 0 ? (
+        <div>数据为空</div>
       ) : (
         <>
-          <table style={{ position: "sticky", top: "80px", backgroundColor: "#fff" }}>
+          <table>
             <thead>
               <tr>
                 <th onClick={() => requestSort("usn")}>学号 {sortConfig.key === "usn" && (sortConfig.direction === "asc" ? "↑" : "↓")}</th>

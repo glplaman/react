@@ -5,27 +5,22 @@ import "./Register.css";
 export default function () {
   const [uemail, setUemail] = useState("");
   const [upass, setUpass] = useState("");
-  const handleRegister = async (e) => {
+  const handleLogin = async (e) => {
     e.preventDefault();
-    const { data, error } = await supabase.auth.signUp({
+    const { data, error } = await supabase.auth.signInWithPassword({
       email: uemail,
       password: upass,
-      // options: {
-      //   emailRedirectTo: "https://example.com/welcome",
-      // },
     });
     if (error) {
       console.error(error.message);
       return;
     }
-    setUemail("");
-    setUpass("");
   };
 
   return (
     <div className="container">
-      <form onSubmit={handleRegister}>
-        <h2>Register</h2>
+      <form onSubmit={handleLogin}>
+        <h2>Login</h2>
         <input type="email" placeholder="Your email" onChange={(e) => setUemail(e.target.value)} required />
         <input type="password" placeholder="Your pass" onChange={(e) => setUpass(e.target.value)} required />
         <button type="submit">submit</button>

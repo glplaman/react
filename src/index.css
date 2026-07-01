@@ -1,5 +1,6 @@
 :root {
-  --main-color: #4bc2ce;
+  --main-color: #da0008;
+  --warn-color: #c5237a;
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
@@ -63,6 +64,17 @@ html {
 
 body {
   font-size: 16px;
+  background-color: var(--main-color);
+  color: #fff;
+  background-image: linear-gradient(var(--main-color), #790002);
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(var(--main-color), transparent);
 }
 
 #root {
@@ -76,7 +88,6 @@ h1,
 h2 {
   font-family: var(--heading);
   font-weight: 500;
-  color: var(--text-h);
 }
 
 h1 {
@@ -127,7 +138,7 @@ textarea {
 
 button {
   cursor: pointer;
-  background-color: #089;
+  background-color: var(--main-color);
   color: #fff;
   padding: 4px 20px;
 }
