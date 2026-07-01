@@ -9,29 +9,29 @@ export default function Message({ session }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const { error, data } = await supabase
-      .from("messages")
-      .insert({ ...msg, email: session.user.email })
-      .select()
-      .single();
+    const { error, data } = await supabase.from("messages").insert({ ...msg, email: session.user.email });
+    // .select()
+    // .single();
     if (error) {
       console.error(error.message);
       return;
     }
     setMsg({ title: "", desc: "" });
-    setMsgs((prev) => [data, ...prev]);
+    // insert 后的更新，由订阅实现
+    // setMsgs((prev) => [data, ...prev]);
     e.target.reset();
   };
 
   const deleteByEmail = async (id) => {
-    const { error, data } = await supabase.from("messages").delete().eq("id", id).select();
+    const { error, data } = await supabase.from("messages").delete().eq("id", id);
+    // .select();
     if (error) {
       console.error(error.message);
       return;
     }
     console.log(data);
-
-    setMsgs((prev) => prev.filter((item) => item.id !== data[0].id));
+    // delete 后的更新，由订阅实现
+    // setMsgs((prev) => prev.filter((item) => item.id !== data[0].id));
   };
 
   const getAll = async () => {
@@ -56,6 +56,21 @@ export default function Message({ session }) {
     getAll();
   }, []);
 
+  useEffect(() => {
+    const ch = supabase.channel("msg");
+    ch.on("postgres_changes", { event: "insert", schema: "public", table: "messages" }, (payload) => {
+      const newmsg = payload.new;
+      setMsgs((prev) => [newmsg, ...prev]);
+    });
+    ch.on("postgres_changes", { event: "delete", schema: "public", table: "messages" }, (payload) => {
+      const deletedTaskId = payload.old.id;
+      setMsgs((prev) => prev.filter((task) => task.id !== deletedTaskId));
+    });
+    ch.subscribe((sta) => console.log(sta));
+    return () => {
+      supabase.removeChannel(ch);
+    };
+  }, []);
   return (
     <div className="container">
       <form className="form" onSubmit={handleSubmit}>
